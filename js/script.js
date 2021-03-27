@@ -51,18 +51,4 @@ function changeSidepanelColor(color) {
     $(".sidepanel__text").css('color', color);
 }
 
-//email
-
-$('form').submit(function (e) {
-    e.preventDefault();
-    $.ajax({
-        type: "POST",
-        url: "mailer/smart.php",
-        data: $(this).serialize()
-    }).done(function () {
-        $('form').trigger('reset');
-    });
-    return false;
-});
-
 new WOW().init();
