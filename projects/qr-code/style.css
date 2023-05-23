@@ -73,6 +73,7 @@ img {
     margin: 0 auto;
     margin-top: 17px;
     max-width: 249px;
+    color: var(--blue-color);
 }
 
 .qr-container img {
