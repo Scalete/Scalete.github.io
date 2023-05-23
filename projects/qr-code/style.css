@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* variables */
+
+:root {
+    --white-color: hsl(0, 0%, 100%);
+    --gray-color: hsl(212, 45%, 89%);
+    --blue-color: hsl(220, 15%, 55%);
+    --dark-blue-color: hsl(218, 44%, 22%);
+}
+
+/* reset styles */
+*, :before, :after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: black;
+    background: var(--gray-color);
+}
+
+h1, p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: top;
+    user-select: none;
+}
+
+::-moz-focus-inner {
+    border:0;
+}
+
+/* main styles */
+.qr-container {
+    max-width: 320px;
+    padding: 15px;
+    padding-bottom: 45px;
+    border-radius: 20px;
+    background: var(--white-color);
+    text-align: center;
+}
+
+.qr-container h1 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 24px;
+}
+
+.qr-container p {
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 17px;
+    max-width: 249px;
+}
+
+.qr-container img {
+    border-radius: 10px;
+}
