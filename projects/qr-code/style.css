@@ -60,6 +60,7 @@ img {
     border-radius: 20px;
     background: var(--white-color);
     text-align: center;
+    box-shadow: 0px 9px 22px -4px rgba(0,0,0,0.47);
 }
 
 .qr-container h1 {
